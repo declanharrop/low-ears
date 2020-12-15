@@ -3,12 +3,13 @@ import { createGlobalStyle, ThemeProvider } from 'styled-components';
 // import TagManager from 'react-gtm-module';
 // import CookieConsent from 'react-cookie-consent';
 import Nav from '../components/nav';
+import Head from '../components/head';
 // import Footer from '../components/Footer';
 
 const GlobalStyle = createGlobalStyle`
 :root {
-  --prime: #1D1937;
-  --second: #332211;
+  --prime: #7b9d63;
+  --second: #6b714b;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
   padding: 0;
   font-family: 'Mulish', sans-serif;
   text-align: center;
-  color: var(--navy);
+  color: var(--second);
   letter-spacing: 0.05rem;
   font-size: 1.5rem;
   line-height: 1.6;
@@ -42,13 +43,13 @@ html {
 
 a {
   text-decoration: none;
-  color: var(--yellow);
+  color: var(--prime);
   margin: 0;
   padding: 0;
 }
    
 a:hover {
-  color: var(--blue);
+  color: var(--second);
 }
 
 button {
@@ -61,7 +62,7 @@ button:focus {outline:0;}
 
 p {
   font-size: 1.6rem;
-  color: var(--black);
+  color: var(--second);
   font-weight: 400;
   max-width: 800px;
   margin: 0 auto;
@@ -70,7 +71,7 @@ p {
 h1 {
   font-size: 6rem;
   font-weight: 600;
-  color: var(--green);
+  color: var(--second);
   letter-spacing: 0.3rem;
   line-height: 1.4;
   margin: 5vh 0;
@@ -87,7 +88,7 @@ h1 {
 h2 {
   font-size: 3rem;
   font-weight: 600;
-  color: var(--green);
+  color: var(--second);
   letter-spacing: .5rem;
   margin: 3vh 0;
   text-shadow: 0 0 2px  var(--navy);
@@ -96,7 +97,7 @@ h2 {
 h3 {
   font-size: 2.2rem;
   font-weight: 500;
-  color: var(--green);
+  color: var(--second);
   line-height: 1.6;
   text-shadow: 0 0 1px  var(--navy);
 }
@@ -121,9 +122,10 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <>
+        <Head />
         <GlobalStyle />
         <ThemeProvider theme={theme}>
-          <Nav />
+          {/* <Nav /> */}
           <Component {...pageProps} />
           {/* <CookieConsent
             location="bottom"
