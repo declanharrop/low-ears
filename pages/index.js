@@ -24,6 +24,10 @@ export default function Home() {
             We are currently under construction and will be lauching in January
             2021
           </p>
+          <p>
+            Get in touch with us: <a href="mailto:lowearshelp@gmail.com" />
+            lowearshelp@gmail.com
+          </p>
         </div>
       </Wrap>
     </>
