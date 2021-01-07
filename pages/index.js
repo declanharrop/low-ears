@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import ImageHeader from '../components/ImageHeader';
+import Layout from '../elements/Layout';
 
 const Wrap = styled.main`
   height: 100vh;
@@ -15,21 +17,17 @@ const Wrap = styled.main`
 
 export default function Home() {
   return (
-    <>
+    <Layout
+      title="Home - Low Ears"
+      desc="Welcome to Low Ears we ..."
+      url="https://lowears.co.uk"
+    >
       <Wrap>
-        <div className="content">
-          <img src="/img/Logo.svg" alt="Low Ears Logo" />
-          <h3>Thank you for visiting our site</h3>
-          <p>
-            We are currently under construction and will be lauching in January
-            2021
-          </p>
-          <p>
-            Get in touch with us: <a href="mailto:lowearshelp@gmail.com" />
-            lowearshelp@gmail.com
-          </p>
-        </div>
+        <ImageHeader
+          img="/img/headers/home.jpg"
+          innerImg="/img/logo/LogoLight.svg"
+        />
       </Wrap>
-    </>
+    </Layout>
   );
 }

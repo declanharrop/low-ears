@@ -1,9 +1,9 @@
 import App from 'next/app';
+import NextHead from 'next/head';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import CookieConsent from 'react-cookie-consent';
+import Nav from '../components/Navigation/nav';
 // import TagManager from 'react-gtm-module';
-// import CookieConsent from 'react-cookie-consent';
-import Nav from '../components/nav';
-import Head from '../components/head';
 // import Footer from '../components/Footer';
 
 const GlobalStyle = createGlobalStyle`
@@ -15,7 +15,8 @@ const GlobalStyle = createGlobalStyle`
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
   text-align: center;
   color: var(--second);
   letter-spacing: 0.05rem;
@@ -44,6 +45,7 @@ html {
 a {
   text-decoration: none;
   color: var(--prime);
+  cursor: pointer;
   margin: 0;
   padding: 0;
 }
@@ -69,10 +71,11 @@ p {
 }
 
 h1 {
-  font-size: 6rem;
-  font-weight: 600;
+  /* font-family: 'Fjalla One', sans-serif; */
+  font-size: 4rem;
+  font-weight: 800;
   color: var(--second);
-  letter-spacing: 0.3rem;
+  letter-spacing: 1rem;
   line-height: 1.4;
   margin: 5vh 0;
   text-transform: uppercase;
@@ -81,13 +84,20 @@ h1 {
 
 @media only screen and (max-width: 700px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  h3 {
+    font-size: 1.8rem;
   }
 }
 
 h2 {
+  /* font-family: 'Fjalla One', sans-serif; */
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 800;
   color: var(--second);
   letter-spacing: .5rem;
   margin: 3vh 0;
@@ -95,8 +105,9 @@ h2 {
 }
 
 h3 {
+  /* font-family: 'Fjalla One', sans-serif; */
   font-size: 2.2rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--second);
   line-height: 1.6;
   text-shadow: 0 0 1px  var(--navy);
@@ -122,15 +133,21 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <>
-        <Head />
+        <NextHead>
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nanum+Gothic:wght@400;700;800&display=swap"
+            rel="stylesheet"
+          />
+        </NextHead>
         <GlobalStyle />
         <ThemeProvider theme={theme}>
-          {/* <Nav /> */}
+          <Nav />
           <Component {...pageProps} />
-          {/* <CookieConsent
+          <CookieConsent
             location="bottom"
             buttonText="Accept"
-            cookieName="Lunula Nails and Beauty Cookie Consent"
+            cookieName="Low Ears Cookie Consent"
             style={{ background: '#1D1937' }}
             buttonStyle={{
               background: '#1D4E89',
@@ -141,7 +158,7 @@ class MyApp extends App {
           >
             By using this website you agree to the use of cookies to enhance the
             user experience.
-          </CookieConsent> */}
+          </CookieConsent>
           {/* <Footer /> */}
         </ThemeProvider>
       </>
