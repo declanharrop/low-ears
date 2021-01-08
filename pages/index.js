@@ -20,7 +20,7 @@ export default function Home() {
     >
       <Wrap>
         <ImageHeader
-          img="/img/headers/home.jpg"
+          img="/img/headers/home1.jpg"
           innerImg="/img/logo/LogoLight.svg"
         />
         <TileSection
