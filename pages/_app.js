@@ -99,7 +99,7 @@ h2 {
   font-size: 3rem;
   font-weight: 800;
   color: var(--second);
-  letter-spacing: .5rem;
+  letter-spacing: .7rem;
   margin: 3vh 0;
   text-transform: uppercase;
   text-shadow: 0 0 2px  var(--navy);
@@ -113,6 +113,7 @@ h3 {
   text-transform: uppercase;
   line-height: 1.6;
   text-shadow: 0 0 1px  var(--navy);
+  letter-spacing: .6rem;
 }
 `;
 

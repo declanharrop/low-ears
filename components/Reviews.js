@@ -1,13 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import SimpleSlider from '../elements/Slider';
 
 const Wrap = styled.div`
-  margin: 30vh 0 40vh 0;
-  padding: 30vh 20px;
+  margin: 24vh 0 30vh 0;
+  padding: 14vh 24px;
   background: linear-gradient(
     184deg,
     rgba(123, 157, 99, 1) 40%,
