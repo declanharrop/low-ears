@@ -44,14 +44,14 @@ html {
 
 a {
   text-decoration: none;
-  color: var(--prime);
+  color: var(--second);
   cursor: pointer;
   margin: 0;
   padding: 0;
 }
    
 a:hover {
-  color: var(--second);
+  color: var(--prime);
 }
 
 button {
@@ -101,6 +101,7 @@ h2 {
   color: var(--second);
   letter-spacing: .5rem;
   margin: 3vh 0;
+  text-transform: uppercase;
   text-shadow: 0 0 2px  var(--navy);
 }
 
@@ -109,6 +110,7 @@ h3 {
   font-size: 2.2rem;
   font-weight: 600;
   color: var(--second);
+  text-transform: uppercase;
   line-height: 1.6;
   text-shadow: 0 0 1px  var(--navy);
 }

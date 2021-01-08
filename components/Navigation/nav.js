@@ -12,6 +12,7 @@ const Wrap = styled.nav`
   );
   position: fixed;
   width: 100vw;
+  z-index: 100;
 `;
 
 export default function Nav() {

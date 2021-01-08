@@ -13,7 +13,7 @@ export default function Links() {
     },
     {
       title: 'Shop',
-      exRoute: 'https://shop.lowears.co.uk',
+      exRoute: 'https://lowears.company.site',
     },
     {
       title: 'Contact',
