@@ -12,46 +12,49 @@ const NavDrawer = styled.div`
   top: 0;
   width: 280px;
   .btnplacer {
-    width: 200px;
-    padding: 0px 0 0 30px;
-    text-align: left;
+    width: 60px;
+    margin: 32px 10px 0 0;
+    float: right;
+  }
+  .logoPlacer {
+    float: left;
+    margin: 24px 0 0 26px;
+    img {
+      width: 140px;
+    }
   }
   .closeButton {
     color: white;
     background: none;
     border: none;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
     cursor: pointer;
     line-height: 0.8;
-    margin: 30px 0 0 0;
     padding: 0;
     &:hover {
-      text-shadow: 0 0 8px var(--prime);
+      text-shadow: 0 0 8px white;
     }
   }
   .content {
-    margin: 20px 30px;
+    margin: 110px 30px;
   }
 `;
 
 const OpenButton = styled.button`
-  /* z-index: 1000; */
   background: none;
-  border: solid 1px var(--prime);
+  border: solid 1px white;
   font-size: 1.8rem;
   font-weight: 700;
-  /* position: fixed; */
-  color: var(--navy);
-  /* top: 10px; */
-  /* left: 20px; */
-  padding: 8px 16px 8px 16px;
+  color: white;
+  padding: 6px 12px 6px 14px;
   border-radius: 4px;
-  color: var(--prime);
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
+  float: left;
+  margin: 20px 0 0 30px;
   &:hover {
-    background: var(--prime);
-    color: white;
+    background: var(--second);
+    border: solid 1px var(--second);
   }
 `;
 
@@ -94,6 +97,9 @@ function Drawer(props) {
         MENU
       </OpenButton>
       <NavDrawer style={{ left: `${width}px` }}>
+        <div className="logoPlacer">
+          <img src="/img/logo/LogoLight.svg" alt="" />
+        </div>
         <div className="btnplacer">
           <button className="closeButton" type="button" onClick={changeWidth}>
             X
