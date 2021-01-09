@@ -26,7 +26,7 @@ const Wrap = styled.div`
     }
   }
   .car {
-    margin: 10vh auto 0 auto;
+    margin: 5vh auto 0 auto;
     position: relative;
   }
 `;
@@ -37,7 +37,91 @@ export default function Reviews() {
       <div className="content">
         <h2>Our Clients love us</h2>
         <div className="car">
-          <SimpleSlider />
+          <SimpleSlider>
+            <div className="item">
+              <h3>Leslie Blair</h3>
+              <h5>BABTAC - Chair</h5>
+              <p>
+                "Sam continues to be an incredible ambassador and pioneer within
+                the industry for over 20 years. Her past success and experiences
+                together with her passion and heart make her the perfect
+                advocate for achieving her vision for ensuring better mental
+                health within the industry through Low Ears."
+              </p>
+            </div>
+            <div className="item">
+              <h3>Sam Sweet</h3>
+              <h5>Sweet Squared - Founder</h5>
+              <p>
+                "I have always admired Sam's brilliance in marketing. She has an
+                uncanny, unique way, in simply coming up with great branding (be
+                it the treatment or product) that speak to the consumer and
+                professional alike. It's a gift. After years of stalking her,
+                and heeding her business advice on the subject of beauty, I am
+                proud to call Sam a friend. Her experience within our industry
+                makes her extremely sought after."
+              </p>
+            </div>
+            <div className="item">
+              <h3>Deborah Mitchell</h3>
+              <h5>Heaven Skincare - Founder</h5>
+              <p>
+                "Sam is a brilliant marketeer; her ideas are always
+                revolutionary. The vision she has for the future make her a
+                first choice for most business, not exclusively the beauty
+                sector."
+              </p>
+            </div>
+            <div className="item">
+              <h3>Jennie Lawson</h3>
+              <h5>Mimosa Beauty</h5>
+              <p>
+                "Sam is a pioneer of the beauty industry! She has championed
+                uniqueness and the power of standing out from a crowd. For me
+                the thing that sets Sam apart from others is her willingness to
+                share her knowledge and empower those around her. I feel
+                privilege to have experienced a taste of that wisdom first
+                hand."
+              </p>
+            </div>
+            <div className="item">
+              <h3>Stephanie Long</h3>
+              <p>
+                "Sam has the magic formula, what every it is, she has it in
+                bucket loads, as an ambassador and veteran for the beauty
+                industry - Sam & her business are the standard"
+              </p>
+            </div>
+            <div className="item">
+              <h3>Hilary Devey</h3>
+              <h5>Former 'Dragon' and business powerhouse</h5>
+              <p>
+                "Sam, I have known for many years and have seen your business
+                grow from small beginnings into the fantastic multi award
+                winning business women you are today. I have watched with
+                admiration your absolute conviction that your business was going
+                to succeed against all odds and your determination is second to
+                none. You have overcome adversity and have shown tenacity and
+                clear vision in achieving your goals. You continue to amaze me
+                with your passion for the business and 'good old Yorkshire hard
+                work'. Had you appeared on Dragon's Den I would most certainly
+                have invested in your business!"
+              </p>
+            </div>
+            <div className="item">
+              <h3>Caroline Ross</h3>
+              <h5>Channel 4 - Running the Shops</h5>
+              <p>
+                "I had the pleasure of working with Sam during filming for the
+                programme on Channel 4 'Running the shops', I was so impressed
+                with her emphatic nature and enormous heart, one of life's good
+                eggs, she was a joy to be around and her knowledge and expertise
+                were remarkable. Her experience is second to none and has a
+                wicked sense of humour, incredibly warm with a contagious
+                spirit."
+              </p>
+            </div>
+          </SimpleSlider>
         </div>
       </div>
     </Wrap>

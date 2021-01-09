@@ -4,7 +4,7 @@ import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import CookieConsent from 'react-cookie-consent';
 import Nav from '../components/Navigation/nav';
 // import TagManager from 'react-gtm-module';
-// import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 
 const GlobalStyle = createGlobalStyle`
 :root {
@@ -162,7 +162,7 @@ class MyApp extends App {
             By using this website you agree to the use of cookies to enhance the
             user experience.
           </CookieConsent>
-          {/* <Footer /> */}
+          <Footer />
         </ThemeProvider>
       </>
     );

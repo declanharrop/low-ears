@@ -14,6 +14,7 @@ const Wrap = styled.section`
   }
   .item {
     margin: 0 auto;
+    padding: 0 60px;
   }
   h3 {
     color: white;
@@ -24,7 +25,7 @@ const Wrap = styled.section`
     text-align: center;
   }
   p {
-    margin: 10px auto 40px auto;
+    margin: 20px auto 40px auto;
   }
   .slick-dots li button::before {
     color: white;
@@ -53,22 +54,12 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1,
       nextArrow: <Next />,
       prevArrow: <Back />,
+      autoplay: true,
+      autoplaySpeed: 12000,
     };
     return (
       <Wrap>
-        <Slider {...settings}>
-          <div className="item">
-            <h3>L O L</h3>
-            <h5>Lunula</h5>
-            <p>Here is where a review would go</p>
-          </div>
-          <div>
-            <p>Review 2</p>
-          </div>
-          <div>
-            <p>Review 3</p>
-          </div>
-        </Slider>
+        <Slider {...settings}>{this.props.children}</Slider>
       </Wrap>
     );
   }
