@@ -25,7 +25,7 @@ export default function Home() {
         />
         <TileSection
           title="What we do"
-          text="Some text to go here that gives a brief description"
+          text="Create a community of well beings."
         >
           <IconTile
             icon="/img/icons/Help.svg"

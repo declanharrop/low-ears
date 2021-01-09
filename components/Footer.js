@@ -12,7 +12,7 @@ export default function Footer() {
         title="INSTAGRAM"
         id="8326806558"
         images="8"
-        buttonText="Follow me on Instagram"
+        buttonText="Follow our lead"
       />
     </Wrap>
   );
