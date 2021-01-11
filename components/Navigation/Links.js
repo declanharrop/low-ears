@@ -36,7 +36,9 @@ export default function Links() {
         if (link.exRoute) {
           return (
             <li key={i}>
-              <a href={link.exRoute}>{link.title}</a>
+              <a href={link.exRoute} target="_blank" rel="noopener noreferrer">
+                {link.title}
+              </a>
             </li>
           );
         }

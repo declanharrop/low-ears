@@ -35,7 +35,7 @@ export default function Reviews() {
   return (
     <Wrap>
       <div className="content">
-        <h2>Our Clients love us</h2>
+        <h2>Theres a lot of love for us</h2>
         <div className="car">
           <SimpleSlider>
             <div className="item">

@@ -25,8 +25,8 @@ const Wrap = styled.div`
 export default function CircleImageSection({ img, title, texts, subtitle }) {
   return (
     <Wrap>
-      <img src={img} alt={title} />
-      <h2>{title}</h2>
+      {img && <img src={img} alt={title} />}
+      {title && <h2>{title}</h2>}
       {subtitle && <h3>{subtitle}</h3>}
       {texts && texts.map((text, i) => <p key={i}>{text}</p>)}
     </Wrap>
