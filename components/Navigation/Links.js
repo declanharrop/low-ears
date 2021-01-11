@@ -12,7 +12,7 @@ export default function Links() {
       route: '/About',
     },
     {
-      title: 'Shop',
+      title: 'Black Dog Remedies',
       exRoute: 'https://lowears.company.site',
     },
     {
