@@ -25,7 +25,7 @@ export default function TileSection({ children, title, text }) {
   return (
     <Wrap>
       {title && <h2>{title}</h2>}
-      {text && <p>{text}</p>}
+      {text && <h3>{text}</h3>}
       <div className="content">{children}</div>
     </Wrap>
   );
