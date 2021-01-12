@@ -4,6 +4,7 @@ import { Query } from 'react-apollo';
 import styled from 'styled-components';
 import ImageHeader from '../components/ImageHeader';
 import StoryTile from '../components/StoryTile';
+import Layout from '../elements/Layout';
 
 const Wrap = styled.div`
   .container {
@@ -35,25 +36,31 @@ const STORIES = gql`
 
 export default function Stories() {
   return (
-    <Wrap>
-      <ImageHeader
-        height="40vh"
-        text="Check Out My Pedigree"
-        img="/img/headers/home.jpg"
-      />
-      <div className="container">
-        <Query query={STORIES}>
-          {({ loading, data }) => {
-            if (loading) return <h1>Loading!!!</h1>;
-            const { blogs } = data;
-            return blogs.map((blog) => (
-              <div key={blog.id}>
-                <StoryTile data={blog} />
-              </div>
-            ));
-          }}
-        </Query>
-      </div>
-    </Wrap>
+    <Layout
+      title="My Pedigree - Sam Pearce - Low Ears"
+      desc="Welcome to Low Ears we ..."
+      url="https://lowears.co.uk/Stories"
+    >
+      <Wrap>
+        <ImageHeader
+          height="40vh"
+          text="Check Out My Pedigree"
+          img="/img/headers/home.jpg"
+        />
+        <div className="container">
+          <Query query={STORIES}>
+            {({ loading, data }) => {
+              if (loading) return <h1>Loading!!!</h1>;
+              const { blogs } = data;
+              return blogs.map((blog) => (
+                <div key={blog.id}>
+                  <StoryTile data={blog} />
+                </div>
+              ));
+            }}
+          </Query>
+        </div>
+      </Wrap>
+    </Layout>
   );
 }

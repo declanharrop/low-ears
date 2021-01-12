@@ -5,6 +5,7 @@ import gql from 'graphql-tag';
 import { Query } from 'react-apollo';
 import Markdown from 'markdown-to-jsx';
 import ImageHeader from '../../components/ImageHeader';
+import Layout from '../../elements/Layout';
 
 const Wrap = styled.div`
   margin: 10vh 20px;
@@ -44,6 +45,11 @@ export default function Story() {
         const { blog } = data;
         return (
           <>
+            <Layout
+              title={`${blog.title}- Low Ears`}
+              desc={blog.content}
+              url={`https://lowears.co.uk/Stories/${blog.id}`}
+            />
             <ImageHeader height="70vh" text={blog.title} img={blog.img.url} />
             <Wrap>
               <div className="content">
