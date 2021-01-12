@@ -23,7 +23,7 @@ export default function About() {
           img="/img/Sam.jpg"
           title="Sam Pearce"
           subtitle="Founder & Mental Wellness Advocate"
-          buttonText="Check out my Pedigree"
+          buttonText="My Pedigree"
           buttonLink="/Stories"
           texts={[
             'Beauty Industry Ambassador, Mental Health Advocate & passionate well-being warrior for change within the service industry sector.',
