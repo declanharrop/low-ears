@@ -57,9 +57,22 @@ a:hover {
 }
 
 button {
-  font-family: 'Mulish', sans-serif;
   cursor: pointer;
-  font-weight: 500;
+  font-family: 'Nanum Gothic', sans-serif;
+  background: none;
+  border: 2px solid var(--second);
+  border-radius: 40px;
+  margin: 40px;
+  padding: 14px 18px;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: var(--second);
+  &:hover {
+    color: white;
+    background: var(--second);
+  }
 }
 
 button:focus {outline:0;}

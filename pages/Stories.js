@@ -23,7 +23,7 @@ const STORIES = gql`
       id
       createdAt
       img {
-        id
+        url
       }
       title
       subhead
