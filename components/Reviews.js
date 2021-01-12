@@ -121,6 +121,23 @@ export default function Reviews() {
                 spirit."
               </p>
             </div>
+            <div className="item">
+              <h3>Adam Chatterley</h3>
+              <h5>
+                Founder of The Beauty Business Podcast and Chair of The UK Spa
+                Association
+              </h5>
+              <p>
+                "I don’t know anyone with as much passion for safeguarding the
+                mental health of our industry as Sam. From spas to salons, she’s
+                literally been there, done that, and probably has the t-shirt.
+                We all know there’s a huge issue regarding mental health in the
+                beauty and wellness industry, but not one to just sit on the
+                sidelines, Sam has taken up the mantle and with Low Ears
+                actually done something about it! I, for one, both salute and
+                support her all the way."
+              </p>
+            </div>
           </SimpleSlider>
         </div>
       </div>
