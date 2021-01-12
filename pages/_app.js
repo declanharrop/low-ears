@@ -2,6 +2,8 @@ import App from 'next/app';
 import NextHead from 'next/head';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import CookieConsent from 'react-cookie-consent';
+import ApolloClient from 'apollo-boost';
+import { ApolloProvider } from 'react-apollo';
 import Nav from '../components/Navigation/nav';
 // import TagManager from 'react-gtm-module';
 import Footer from '../components/Footer';
@@ -134,36 +136,42 @@ class MyApp extends App {
 
   render() {
     const { Component, pageProps } = this.props;
+    const client = new ApolloClient({
+      uri:
+        'https://api-eu-central-1.graphcms.com/v2/ckjsv8pk1443l01xq6fg19l8v/master',
+    });
     return (
       <>
-        <NextHead>
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nanum+Gothic:wght@400;700;800&display=swap"
-            rel="stylesheet"
-          />
-        </NextHead>
-        <GlobalStyle />
-        <ThemeProvider theme={theme}>
-          <Nav />
-          <Component {...pageProps} />
-          <CookieConsent
-            location="bottom"
-            buttonText="Accept"
-            cookieName="Low Ears Cookie Consent"
-            style={{ background: '#1D1937' }}
-            buttonStyle={{
-              background: '#1D4E89',
-              color: '#E5E4D0',
-              fontSize: '14px',
-            }}
-            expires={150}
-          >
-            By using this website you agree to the use of cookies to enhance the
-            user experience.
-          </CookieConsent>
-          <Footer />
-        </ThemeProvider>
+        <ApolloProvider client={client}>
+          <NextHead>
+            <link rel="preconnect" href="https://fonts.gstatic.com" />
+            <link
+              href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nanum+Gothic:wght@400;700;800&display=swap"
+              rel="stylesheet"
+            />
+          </NextHead>
+          <GlobalStyle />
+          <ThemeProvider theme={theme}>
+            <Nav />
+            <Component {...pageProps} />
+            <CookieConsent
+              location="bottom"
+              buttonText="Accept"
+              cookieName="Low Ears Cookie Consent"
+              style={{ background: '#1D1937' }}
+              buttonStyle={{
+                background: '#1D4E89',
+                color: '#E5E4D0',
+                fontSize: '14px',
+              }}
+              expires={150}
+            >
+              By using this website you agree to the use of cookies to enhance
+              the user experience.
+            </CookieConsent>
+            <Footer />
+          </ThemeProvider>
+        </ApolloProvider>
       </>
     );
   }
