@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Link from 'next/link';
 import CircleImageSection from '../../components/CircleImageSection';
 import ColorSection from '../../components/ColorSection';
 import ImageHeader from '../../components/ImageHeader';
@@ -25,7 +26,7 @@ export default function Mentoring() {
         />
         <CircleImageSection
           texts={[
-            'Having been there, done that and worn/own the entire wardrobe, I am ideally placed to be able to offer you a no nonsense, focussed, programme of works to not only support you and your business holistically.',
+            'Having been there, done that and worn/own the entire wardrobe, I am ideally placed to be able to offer you a no nonsense, focussed, programme of works to not only support you and your business holistically. Having been there, done that and worn/own the entire wardrobe, I am ideally placed to be able to offer you a no nonsense, focussed, programme of works to not only support you and your business holistically, but to map out what your future looks like and how you feature in it, to create equilibrium.',
             'Working together to provide an emotional audit of your life, are you ready to be the best version of you?',
           ]}
         />
@@ -126,6 +127,17 @@ export default function Mentoring() {
             },
           ]}
         />
+        <div className="book">
+          <p>
+            Here, you can book a 1-1 session with me to determine your exact
+            requirement - it would be my pleasure to meet you
+          </p>
+          <Link href="/BookAppointment">
+            <a>
+              <button type="button">Book</button>
+            </a>
+          </Link>
+        </div>
         <MentoringReviews />
       </Wrap>
     </Layout>

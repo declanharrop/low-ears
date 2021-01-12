@@ -21,11 +21,12 @@ const Wrap = styled.div`
   }
 `;
 
-export default function TileSection({ children, title, text }) {
+export default function TileSection({ children, title, subtitle, text }) {
   return (
     <Wrap>
       {title && <h2>{title}</h2>}
-      {text && <h3>{text}</h3>}
+      {subtitle && <h3>{subtitle}</h3>}
+      {text && <p>{text}</p>}
       <div className="content">{children}</div>
     </Wrap>
   );

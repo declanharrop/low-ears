@@ -25,7 +25,8 @@ export default function Home() {
         />
         <TileSection
           title="What we do"
-          text="Create a community of well beings."
+          subtitle="Create a community of well beings."
+          text="'I've created, what wasn't available to me, when on 8/6/19 my professional and personal life changed forever.  My sense of purpose is to use every part of my experience to safeguard and support others, to be honourable, compassionate and to make a difference, this is a safe space where trust is paramount'."
         >
           <IconTile
             icon="/img/icons/Help.svg"

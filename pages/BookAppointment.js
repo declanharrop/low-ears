@@ -2,7 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrap = styled.div`
-  margin: 20px;
+  padding: 5vh 20px;
+  h1 {
+    margin: 8vh 0 0 0;
+  }
 `;
 
 export default function BookAppointment() {
