@@ -30,6 +30,7 @@ export default function Home() {
           img="/img/headers/homeQuote.jpg"
           imgLocation="center"
           overlay="0.2"
+          small
         />
         <TileSection
           title="What we do"

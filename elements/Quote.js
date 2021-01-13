@@ -16,6 +16,7 @@ const Wrap = styled.div`
   }
   .contentInner {
     max-width: 800px;
+    padding: 20px;
   }
   h3 {
     font-size: 2.8rem;
@@ -35,6 +36,7 @@ const Wrap2 = styled.div`
   }
   .contentInner {
     max-width: 800px;
+    padding: 20px;
   }
   h3 {
     font-size: 2.8rem;
@@ -49,6 +51,7 @@ export default function Quote({
   height = '60vh',
   quote,
   overlay = '0.6',
+  small,
 }) {
   return (
     <>
@@ -65,7 +68,11 @@ export default function Quote({
               style={{ background: `rgba(0, 0, 0, ${overlay})` }}
             >
               <div className="contentInner">
-                <h3>{quote}</h3>
+                {small ? (
+                  <p style={{ fontWeight: '600', color: 'white' }}>{quote}</p>
+                ) : (
+                  <h3>{quote}</h3>
+                )}
               </div>
             </div>
           )}
