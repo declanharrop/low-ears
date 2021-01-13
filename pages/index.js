@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <Layout
       title="Home - Low Ears"
-      desc="Welcome to Low Ears we ..."
+      desc="Education, support and solution based mental health for those working in any customer service industry."
       url="https://lowears.co.uk"
     >
       <Wrap>
