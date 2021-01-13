@@ -23,6 +23,7 @@ export default function Home() {
         <ImageHeader
           img="/img/headers/home1.jpg"
           innerImg="/img/logo/LogoLight.svg"
+          arrow
         />
         <Quote
           quote="'I've created, what wasn't available to me, when on 8/6/19 my professional and personal life changed forever.  My sense of purpose is to use every part of my experience to safeguard and support others, to be honourable, compassionate and to make a difference, this is a safe space where trust is paramount'."

@@ -44,7 +44,7 @@ export default function Stories() {
       <Wrap>
         <ImageHeader
           height="40vh"
-          text="Check Out My Pedigree"
+          text="My Pedigree"
           img="/img/headers/home.jpg"
         />
         <div className="container">
