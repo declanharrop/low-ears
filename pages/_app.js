@@ -4,8 +4,8 @@ import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import CookieConsent from 'react-cookie-consent';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
+import TagManager from 'react-gtm-module';
 import Nav from '../components/Navigation/nav';
-// import TagManager from 'react-gtm-module';
 import Footer from '../components/Footer';
 
 const GlobalStyle = createGlobalStyle`
@@ -138,14 +138,14 @@ const theme = {
   },
 };
 
-// const tagManagerArgs = {
-//   gtmId: 'GTM-K67S6QD',
-// };
+const tagManagerArgs = {
+  gtmId: 'GTM-NCXVPFF',
+};
 
 class MyApp extends App {
-  // componentDidMount() {
-  //   TagManager.initialize(tagManagerArgs);
-  // }
+  componentDidMount() {
+    TagManager.initialize(tagManagerArgs);
+  }
 
   render() {
     const { Component, pageProps } = this.props;

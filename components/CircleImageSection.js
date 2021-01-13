@@ -20,6 +20,7 @@ const Wrap = styled.div`
   }
   p {
     margin: 10px auto;
+    padding: 0 20px;
   }
 `;
 
