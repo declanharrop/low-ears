@@ -23,11 +23,7 @@ export default function Help() {
       desc="Welcome to Low Ears we ..."
       url="https://lowears.co.uk/Services/Help"
     >
-      <ImageHeader
-        img="/img/headers/education.jpg"
-        height="60vh"
-        text="Education"
-      />
+      <ImageHeader img="/img/headers/help.jpg" height="60vh" text="Help" />
       <Wrap>
         <div className="leading">
           <h3>
