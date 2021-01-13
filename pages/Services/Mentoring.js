@@ -62,7 +62,7 @@ export default function Mentoring() {
               title: 'PRODUCTIVITY COACH',
               texts: [
                 'Preparation of SOPS Manual including all standard operating procedures',
-                'Source and implement supporting booking software up booking software',
+                'Source and implement supporting booking software',
                 'Busting energy blocks',
                 'Staff Recruitment #groan',
                 'Collaboration options',

@@ -19,6 +19,10 @@ const Wrap = styled.div`
   }
 `;
 
+const Contact = styled.div`
+  margin: -10vh 0;
+`;
+
 const ThirtyEight = styled.div`
   padding: 0 20px 10 20px;
 `;
@@ -26,6 +30,11 @@ const ThirtyEight = styled.div`
 export default function Footer() {
   return (
     <Wrap>
+      <Contact>
+        <a href="mailto:info@lowears.co.uk">
+          <button type="button">Contact Us</button>
+        </a>
+      </Contact>
       <InstaFeed
         insta="https://www.instagram.com/low.ears_/"
         title="INSTAGRAM"

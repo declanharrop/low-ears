@@ -17,6 +17,10 @@ const Wrap = styled.div`
     button {
       margin: 60px auto 0 auto;
     }
+    p {
+      margin: 20px auto;
+      padding: 0 20px;
+    }
   }
 `;
 

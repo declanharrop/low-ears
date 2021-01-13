@@ -27,9 +27,7 @@ export default function Contact() {
           text="Contact Us"
         />
         <div className="cont">
-          <h3>
-            If you can't find what you are after feel free to drop us an email.
-          </h3>
+          <h3>Please feel free to contact us, we can't wait to meet you.</h3>
           <a href="mailto:info@lowears.co.uk">
             <button type="button">info@lowears.co.uk</button>
           </a>

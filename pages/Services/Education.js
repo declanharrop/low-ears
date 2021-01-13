@@ -29,7 +29,6 @@ export default function Education() {
               'Each potential student is interviewed (informally) for our unique onboarding service prior to undertaking any of our courses as a safeguarding process for all parties.',
               "We send you 'doggy bags' our emotional bundles to support you during your training.",
               'We limit the numbers of attendees due to the sensitive subject matter.',
-              'Low Ears pre-recorded distance half day course in awareness of first aid for mental health £111',
             ]}
           />
           <Quote
@@ -37,11 +36,18 @@ export default function Education() {
             quote="'Education is the most powerful weapon you can use to change the world' - Nelson Mandela "
             img="/img/headers/education2.jpg"
           />
-          <CircleImageSection
-            texts={[
-              'Raising awareness of mental health first aid within the workplace. The course takes approximately 6 hours to complete.',
-              'This 6-hour introductory course has been created to provide you with knowledge and awareness to identify suspected mental health conditions in another.  We will guide you to learning the skills to start a conversation and be able to signpost the person towards the right professional help.  The course comprises of study materials and pre-recorded guided videos.  Everything you need will be sent via email and is password protected once you register.',
-              'This course is ideally suited for:- those who would like a basic overview of what first aid for mental health is, for businesses or organisations who already have a qualfied mental health first aider but would like additional staff members/colleagues to have a better understanding of the role & the ability to support this person if needed.',
+          <ColorSection
+            title="Low Ears pre-recorded distance half day course in awareness of first aid for mental health"
+            subtitle="£275/Person"
+            contents={[
+              {
+                title: 'The course highlights include',
+                texts: [
+                  'Raising awareness of mental health first aid within the workplace. The course takes approximately 6 hours to complete.',
+                  'This 6-hour introductory course has been created to provide you with knowledge and awareness to identify suspected mental health conditions in another.  We will guide you to learning the skills to start a conversation and be able to signpost the person towards the right professional help.  The course comprises of study materials and pre-recorded guided videos.  Everything you need will be sent via email and is password protected once you register.',
+                  'This course is ideally suited for:- those who would like a basic overview of what first aid for mental health is, for businesses or organisations who already have a qualfied mental health first aider but would like additional staff members/colleagues to have a better understanding of the role & the ability to support this person if needed.',
+                ],
+              },
             ]}
           />
           <ColorSection
