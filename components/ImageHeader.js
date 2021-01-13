@@ -8,7 +8,8 @@ const Wrap = styled.div`
   .downarrow {
     height: 30px;
     align-self: flex-end;
-    margin: -70vh 0 0 0;
+    margin: -10vh 0 0 0;
+    position: absolute;
   }
   .content {
     height: 100%;
@@ -44,9 +45,9 @@ export default function ImageHeader({
         {innerImg && <img src={innerImg} alt="" />}
         {text && <h1>{text}</h1>}
       </div>
-      {/* {arrow && (
+      {arrow && (
         <img className="downarrow" src="/img/icons/Down.svg" alt="Down Icon" />
-      )} */}
+      )}
     </Wrap>
   );
 }
