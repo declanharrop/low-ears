@@ -5,6 +5,7 @@ import Link from 'next/link';
 const Wrap = styled.div`
   margin: 10vh auto;
   max-width: 1000px;
+  padding: 20px;
   img {
     height: 300px;
     width: 300px;
@@ -20,7 +21,6 @@ const Wrap = styled.div`
   }
   p {
     margin: 10px auto;
-    padding: 0 20px;
   }
 `;
 
