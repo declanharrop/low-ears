@@ -5,6 +5,7 @@ import Reviews from '../components/Reviews';
 import TileSection from '../components/TileSection';
 import IconTile from '../elements/IconTile';
 import Layout from '../elements/Layout';
+import Quote from '../elements/Quote';
 // import SimpleSlider from '../elements/Slider';
 
 const Wrap = styled.main`
@@ -23,10 +24,14 @@ export default function Home() {
           img="/img/headers/home1.jpg"
           innerImg="/img/logo/LogoLight.svg"
         />
+        <Quote
+          quote="'I've created, what wasn't available to me, when on 8/6/19 my professional and personal life changed forever.  My sense of purpose is to use every part of my experience to safeguard and support others, to be honourable, compassionate and to make a difference, this is a safe space where trust is paramount'."
+          img="/img/headers/homeQuote.jpg"
+          imgLocation="center"
+        />
         <TileSection
           title="What we do"
           subtitle="Create a community of well beings."
-          text="'I've created, what wasn't available to me, when on 8/6/19 my professional and personal life changed forever.  My sense of purpose is to use every part of my experience to safeguard and support others, to be honourable, compassionate and to make a difference, this is a safe space where trust is paramount'."
         >
           <IconTile
             icon="/img/icons/Help.svg"
