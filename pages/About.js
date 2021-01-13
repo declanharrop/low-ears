@@ -60,7 +60,7 @@ export default function About() {
         />
         <CircleImageSection
           img="/img/people/elizabeth.png"
-          title="Laila Charlesworth BSC, ANutr, BSC Hons"
+          title="Laila Charlesworth BSc, ANutr, BSc Hons"
           subtitle="Registered Associate Nutritionist"
           texts={[
             'Laila Charlesworth is an effervescent Scandinavian with a huge passion for her chosen profession in Nutrition having achieved a first class degree in Nutrition, Food and Health at Leeds Trinity University.',

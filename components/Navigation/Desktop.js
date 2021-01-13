@@ -7,7 +7,7 @@ const Wrap = styled.div`
   margin: 0 20px 0 0;
   li {
     display: inline-block;
-    margin: 30px 20px;
+    margin: 30px 16px;
     text-transform: uppercase;
   }
   a {

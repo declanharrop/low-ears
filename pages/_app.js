@@ -75,6 +75,16 @@ button {
   }
 }
 
+.buttonreverse {
+  color: white;
+  border: 2px solid white;
+  &:hover {
+    color: var(--second);
+    background: white;
+  }
+
+}
+
 button:focus {outline:0;}
 
 p {

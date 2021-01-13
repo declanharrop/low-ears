@@ -37,6 +37,7 @@ export default function Education() {
             img="/img/headers/education2.jpg"
           />
           <ColorSection
+            contact
             title="Low Ears pre-recorded distance half day course in awareness of first aid for mental health"
             subtitle="£111/Person"
             contents={[
@@ -54,6 +55,7 @@ export default function Education() {
             title="Low Ears Mental Health Awareness 1 day course"
             subtitle="£275/person"
             subtext="Unrivalled industry-endorsed training combining over 23 years of multi-award-winning knowledge, conventional MHFAE & tailored techniques combining multiple training methods."
+            contact
             contents={[
               {
                 title: 'The course highlights include:-',
@@ -115,6 +117,7 @@ export default function Education() {
           />
           <ColorSection
             title="Black Dog Remedy Training"
+            contact
             contents={[
               {
                 title: 'Flower Essence training - £99',

@@ -12,6 +12,13 @@ const Wrap = styled.nav`
   position: fixed;
   width: 100vw;
   z-index: 100;
+
+  .logoplacer {
+    margin: 24px 0 0 20px;
+    img {
+      height: 40px;
+    }
+  }
 `;
 
 export default function Nav() {
@@ -29,13 +36,32 @@ export default function Nav() {
   }, []);
 
   const NavigationType = () => {
-    if (width < 800) {
+    if (width < 880) {
       return <Mobile />;
     }
     return <Desktop />;
   };
+
+  const LogoSide = () => {
+    if (width < 880) {
+      return (
+        <div
+          className="logoplacer"
+          style={{ float: 'right', margin: '16px 30px 20px 0px' }}
+        >
+          <img src="/img/logo/LogoLight.svg" alt="" />
+        </div>
+      );
+    }
+    return (
+      <div className="logoplacer" style={{ float: 'left' }}>
+        <img src="/img/logo/LogoLight.svg" alt="" />
+      </div>
+    );
+  };
   return (
     <Wrap>
+      <LogoSide />
       <NavigationType />
     </Wrap>
   );

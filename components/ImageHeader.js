@@ -61,7 +61,7 @@ export default function ImageHeader({
       </Wrap>
       {arrow && (
         <DownArrow>
-          <img src="/img/icons/Down.svg" alt="Down Icon" />
+          <img src="/img/icons/Downarrow.svg" alt="Down Icon" />
         </DownArrow>
       )}
     </>

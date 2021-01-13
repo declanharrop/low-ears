@@ -37,7 +37,13 @@ const Wrap = styled.div`
   }
 `;
 
-export default function ColorSection({ title, subtitle, subtext, contents }) {
+export default function ColorSection({
+  title,
+  subtitle,
+  subtext,
+  contents,
+  contact,
+}) {
   console.log(contents);
   return (
     <Wrap>
@@ -56,6 +62,13 @@ export default function ColorSection({ title, subtitle, subtext, contents }) {
               </div>
             ))}
         </div>
+        {contact && (
+          <a href="mailto:info@lowears.co.uk">
+            <button className="buttonreverse" type="button">
+              Contact us to book
+            </button>
+          </a>
+        )}
       </div>
     </Wrap>
   );

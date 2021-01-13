@@ -4,12 +4,20 @@ import Link from 'next/link';
 export default function Links() {
   const AllLinks = [
     {
-      title: 'Home',
-      route: '/',
-    },
-    {
       title: 'About',
       route: '/About',
+    },
+    {
+      title: 'Help',
+      route: '/Services/Help',
+    },
+    {
+      title: 'Mentoring',
+      route: '/Services/Mentoring',
+    },
+    {
+      title: 'Education',
+      route: '/Services/Education',
     },
     {
       title: 'Black Dog Remedies',
