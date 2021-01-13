@@ -7,8 +7,7 @@ const Wrap = styled.div`
   background-size: cover;
   .downarrow {
     height: 30px;
-    align-self: flex-end;
-    margin: -10vh 0 0 0;
+    margin: -15vh auto 0 auto;
     position: absolute;
   }
   .content {
@@ -32,6 +31,19 @@ const Wrap = styled.div`
   }
 `;
 
+const DownArrow = styled.div`
+  height: 30px;
+  margin: -15vh auto 0 auto;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 40px;
+  }
+`;
+
 export default function ImageHeader({
   img,
   height = '100vh',
@@ -40,14 +52,18 @@ export default function ImageHeader({
   arrow,
 }) {
   return (
-    <Wrap style={{ backgroundImage: `url(${img})`, height: `${height}` }}>
-      <div className="content">
-        {innerImg && <img src={innerImg} alt="" />}
-        {text && <h1>{text}</h1>}
-      </div>
+    <>
+      <Wrap style={{ backgroundImage: `url(${img})`, height: `${height}` }}>
+        <div className="content">
+          {innerImg && <img src={innerImg} alt="" />}
+          {text && <h1>{text}</h1>}
+        </div>
+      </Wrap>
       {arrow && (
-        <img className="downarrow" src="/img/icons/Down.svg" alt="Down Icon" />
+        <DownArrow>
+          <img src="/img/icons/Down.svg" alt="Down Icon" />
+        </DownArrow>
       )}
-    </Wrap>
+    </>
   );
 }
