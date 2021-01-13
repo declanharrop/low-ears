@@ -10,10 +10,10 @@ const NavDrawer = styled.div`
   overflow: hidden;
   position: fixed;
   top: 0;
-  width: 280px;
+  width: 300px;
   .btnplacer {
-    width: 60px;
-    margin: 32px 10px 0 0;
+    /* width: 60px; */
+    /* margin: 32px 10px 0 0; */
     float: right;
   }
   .logoPlacer {
@@ -32,6 +32,7 @@ const NavDrawer = styled.div`
     cursor: pointer;
     line-height: 0.8;
     padding: 0;
+    margin: 39px 30px 0 0;
     &:hover {
       text-shadow: 0 0 8px white;
     }
@@ -71,13 +72,13 @@ const Overlay = styled.div`
 `;
 
 function Drawer(props) {
-  const [width, setWidth] = useState(-320);
+  const [width, setWidth] = useState(-300);
   const [opacity, setOpacity] = useState('rgba(229, 249, 224, 0)');
   const [layer, setLayer] = useState(-2000);
   const [height, setHeight] = useState(0);
 
   const changeWidth = () => {
-    if (width === -320) {
+    if (width === -300) {
       setLayer(900);
       setWidth(0);
       setOpacity('rgba(229, 228, 208,0.7)');
@@ -85,7 +86,7 @@ function Drawer(props) {
       setHeight(100);
     } else {
       setLayer(-2000);
-      setWidth(-320);
+      setWidth(-300);
       setOpacity('rgba(229, 228, 208,0)');
       document.body.style.overflow = 'visible';
       setHeight(0);
