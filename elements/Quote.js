@@ -13,7 +13,6 @@ const Wrap = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.6);
   }
   .contentInner {
     max-width: 800px;
@@ -45,7 +44,12 @@ const Wrap2 = styled.div`
   }
 `;
 
-export default function Quote({ img, height = '60vh', quote }) {
+export default function Quote({
+  img,
+  height = '60vh',
+  quote,
+  overlay = '0.6',
+}) {
   return (
     <>
       {img ? (
@@ -56,7 +60,10 @@ export default function Quote({ img, height = '60vh', quote }) {
           }}
         >
           {quote && (
-            <div className="content">
+            <div
+              className="content"
+              style={{ background: `rgba(0, 0, 0, ${overlay})` }}
+            >
               <div className="contentInner">
                 <h3>{quote}</h3>
               </div>
