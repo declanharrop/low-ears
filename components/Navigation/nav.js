@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import Link from 'next/link';
 import Mobile from './Mobile';
 import Desktop from './Desktop';
 
@@ -49,13 +50,21 @@ export default function Nav() {
           className="logoplacer"
           style={{ float: 'right', margin: '16px 30px 20px 0px' }}
         >
-          <img src="/img/logo/LogoLight.svg" alt="" />
+          <Link href="/">
+            <a>
+              <img src="/img/logo/LogoLight.svg" alt="Low ears Logo" />
+            </a>
+          </Link>
         </div>
       );
     }
     return (
       <div className="logoplacer" style={{ float: 'left' }}>
-        <img src="/img/logo/LogoLight.svg" alt="" />
+        <Link href="/">
+          <a>
+            <img src="/img/logo/LogoLight.svg" alt="Low ears Logo" />
+          </a>
+        </Link>
       </div>
     );
   };

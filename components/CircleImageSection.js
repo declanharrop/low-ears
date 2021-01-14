@@ -22,6 +22,9 @@ const Wrap = styled.div`
   p {
     margin: 10px auto;
   }
+  a {
+    font-weight: 600;
+  }
 `;
 
 export default function CircleImageSection({
@@ -31,6 +34,7 @@ export default function CircleImageSection({
   subtitle,
   buttonText,
   buttonLink,
+  website,
 }) {
   return (
     <Wrap>
@@ -45,6 +49,11 @@ export default function CircleImageSection({
       )}
       {subtitle && <h3>{subtitle}</h3>}
       {texts && texts.map((text, i) => <p key={i}>{text}</p>)}
+      {website && (
+        <a href={website} target="_blank" rel="noopener noreferrer">
+          {website}
+        </a>
+      )}
     </Wrap>
   );
 }
