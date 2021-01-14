@@ -26,7 +26,7 @@ export default function Mentoring() {
         />
         <CircleImageSection
           texts={[
-            'Having been there, done that and worn/own the entire wardrobe, I am ideally placed to be able to offer you a no nonsense, focussed, programme of works to not only support you and your business holistically. Having been there, done that and worn/own the entire wardrobe, I am ideally placed to be able to offer you a no nonsense, focussed, programme of works to not only support you and your business holistically, but to map out what your future looks like and how you feature in it, to create equilibrium.',
+            'Having been there, done that and worn/own the entire wardrobe, I am ideally placed to be able to offer you a no nonsense, focussed, programme of works to not only support you and your business holistically, but to map out what your future looks like and how you feature in it, to create equilibrium.',
             'Working together to provide an emotional audit of your life, are you ready to be the best version of you?',
           ]}
         />
