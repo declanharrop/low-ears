@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import ImageHeader from '../components/ImageHeader';
 import StoryTile from '../components/StoryTile';
 import Layout from '../elements/Layout';
+import Loading from '../elements/Loading';
 
 const Wrap = styled.div`
   .container {
@@ -50,7 +51,7 @@ export default function Stories() {
         <div className="container">
           <Query query={STORIES}>
             {({ loading, data }) => {
-              if (loading) return <h1>Loading!!!</h1>;
+              if (loading) return <Loading />;
               const { blogs } = data;
               return blogs.map((blog) => (
                 <div key={blog.id}>

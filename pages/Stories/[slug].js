@@ -6,6 +6,7 @@ import { Query } from 'react-apollo';
 import Markdown from 'markdown-to-jsx';
 import ImageHeader from '../../components/ImageHeader';
 import Layout from '../../elements/Layout';
+import Loading from '../../elements/Loading';
 
 const Wrap = styled.div`
   margin: 10vh 20px;
@@ -45,7 +46,7 @@ export default function Story() {
   return (
     <Query query={CURRENT_STORY} variables={{ id: slug }}>
       {({ loading, data }) => {
-        if (loading) return <h1>Loading!!!</h1>;
+        if (loading) return <Loading />;
         const { blog } = data;
         return (
           <>
