@@ -25,7 +25,7 @@ export default function About() {
           subtitle="Founder & Mental Wellness Advocate"
           buttons={[
             { buttonText: 'My Pedigree', buttonLink: '/Stories' },
-            { buttonText: 'Press', buttonLink: '/Stories/Press' },
+            { buttonText: 'Press and Awards', buttonLink: '/Stories/Press' },
           ]}
           buttonText="My Pedigree"
           buttonLink="/Stories"

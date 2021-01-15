@@ -44,9 +44,9 @@ export default function Stories() {
     >
       <Wrap>
         <ImageHeader
-          height="40vh"
+          height="60vh"
           text="My Pedigree"
-          img="/img/headers/home.jpg"
+          img="/img/headers/Pedegree.jpg"
         />
         <div className="container">
           <Query query={STORIES}>

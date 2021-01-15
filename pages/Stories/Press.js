@@ -24,7 +24,7 @@ export default function Press() {
       desc="Press Clippings"
       url="https://lowears.co.uk/Stories/Press"
     >
-      <ImageHeader height="30vh" text="Press" />
+      <ImageHeader height="50vh" text="Press" img="/img/headers/press.jpg" />
       <Wrap>
         <div className="item">
           {AwardPhotos.map((item, i) => (

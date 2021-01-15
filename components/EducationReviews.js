@@ -65,11 +65,11 @@ export default function EducationReviews() {
             <div className="item">
               <h3>Sarah</h3>
               <p>
-                " Just to say, thank you for a very informative course, your
+                "Just to say, thank you for a very informative course, your
                 delivery was great and enabled me to really get the best from
                 you. I know you said time to reflect and absorb the information
                 but this is what stuck in my mind - be careful where I put my
-                angel, make practical slow steps, make peace for a better
+                energy, make practical slow steps, make peace for a better
                 future, reflect and review, do what I do best"
               </p>
             </div>
