@@ -17,14 +17,14 @@ const Wrap = styled.div`
   }
 `;
 
-export default function Awards() {
+export default function Press() {
   return (
     <Layout
-      title="Awards - Low Ears"
-      desc="My Awards"
-      url="https://lowears.co.uk/Stories/Awards"
+      title="Press - Low Ears"
+      desc="Press Clippings"
+      url="https://lowears.co.uk/Stories/Press"
     >
-      <ImageHeader height="30vh" text="Awards" />
+      <ImageHeader height="30vh" text="Press" />
       <Wrap>
         <div className="item">
           {AwardPhotos.map((item, i) => (
