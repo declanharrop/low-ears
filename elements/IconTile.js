@@ -15,6 +15,10 @@ const Wrap = styled.div`
     height: 120px;
     margin: 20px auto 40px auto;
   }
+  h3 {
+    font-size: 2rem;
+    height: 70px;
+  }
 `;
 
 export default function IconTile({ icon, text, link, exLink }) {

@@ -53,7 +53,7 @@ export default function Home() {
           />
           <IconTile
             icon="/img/icons/Shop.svg"
-            text="Shop"
+            text="Black Dog Remedies"
             exLink="https://lowears.company.site"
           />
         </TileSection>

@@ -23,6 +23,10 @@ export default function About() {
           img="/img/Sam.jpg"
           title="Sam Pearce"
           subtitle="Founder & Mental Wellness Advocate"
+          buttons={[
+            { buttonText: 'My Pedigree', buttonLink: '/Stories' },
+            { buttonText: 'Awards', buttonLink: '/Stories/Awards' },
+          ]}
           buttonText="My Pedigree"
           buttonLink="/Stories"
           texts={[

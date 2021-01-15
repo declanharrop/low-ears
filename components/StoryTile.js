@@ -26,6 +26,9 @@ const Wrap = styled.div`
       font-size: 2rem;
     }
   }
+  .noimage {
+    border-bottom: 1px solid var(--second);
+  }
 `;
 
 export default function StoryTile({ data }) {
@@ -33,7 +36,15 @@ export default function StoryTile({ data }) {
     <Link href={`/Stories/${data.id}`}>
       <a>
         <Wrap>
-          <img src={data.img.url} alt={data.title} />
+          {data.img ? (
+            <img src={data.img.url} alt={data.title} />
+          ) : (
+            <img
+              className="noimage"
+              src="/img/logo/Lowears.svg"
+              alt="Low Ears Logo"
+            />
+          )}
           <div className="con">
             <h3>{data.title}</h3>
           </div>
