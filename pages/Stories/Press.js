@@ -33,7 +33,6 @@ export default function Press() {
         height="70vh"
         text="Press & Awards"
         img="/img/headers/press.jpg"
-        quote="I’ve come to believe that each of us has a personal calling that’s as unique as a fingerprint – and that the best way to succeed is to discover what you love and then find a way to offer it to others in the form of service, working hard, and also allowing the energy of the universe to lead you."
       />
       <Wrap>
         <div className="item">
