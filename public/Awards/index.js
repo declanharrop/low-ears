@@ -1,4 +1,5 @@
 const AwardPhotos = [
+  { img: '/Awards/Award0.jpg' },
   { img: '/Awards/Award1.jpg' },
   { img: '/Awards/Award2.jpg' },
   { img: '/Awards/Award3.jpg' },

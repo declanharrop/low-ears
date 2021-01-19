@@ -51,7 +51,7 @@ export default function Story() {
         return (
           <>
             <Layout
-              title={`${blog.title}- Low Ears`}
+              title={`${blog.title} - Low Ears`}
               desc={blog.content}
               url={`https://lowears.co.uk/Stories/${blog.id}`}
             />

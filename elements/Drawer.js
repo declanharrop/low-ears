@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const NavDrawer = styled.div`
-  z-index: 1100;
+  z-index: 3000;
   color: white;
   background: var(--second);
   height: 100vh;
