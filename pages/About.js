@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Link from 'next/link';
 import Layout from '../elements/Layout';
 import ImageHeader from '../components/ImageHeader';
 import CircleImageSection from '../components/CircleImageSection';
@@ -46,6 +47,11 @@ export default function About() {
           ]}
         />
         <Quote height="50vh" img="/img/SamAbout.jpg" />
+        <Link href="/Friends">
+          <a>
+            <button type="button">The rest of the Packcd</button>
+          </a>
+        </Link>
         <Quote
           height="20vh"
           quote="BEST IN BREED"
