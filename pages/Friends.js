@@ -73,6 +73,11 @@ export default function Friends() {
           text="Babtac"
           img="/img/partner/BABTAC.jpg"
         />
+        <Item
+          link="https://sustainablespas.org/"
+          text="The Sustainable Spa Association"
+          img="/img/partner/SustainableSpa.jpg"
+        />
       </Wrap>
     </Layout>
   );
