@@ -23,6 +23,10 @@ export default function Education() {
             height="60vh"
             text="Education"
           />
+          <Quote
+            height="40vh"
+            quote="'Every £1 spent on employee wellbeing, results in a £5 return for employers.' - Deloitte"
+          />
           <CircleImageSection
             texts={[
               "We are passionate about providing unrivalled training and learning experiences, our courses provide the foundations of knowledge and guide you to implement this learning into every area of your life.  I have created what wasn't ever available for me.",

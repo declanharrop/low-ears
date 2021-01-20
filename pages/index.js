@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Affirmation from '../components/Affirmation';
 import ImageHeader from '../components/ImageHeader';
 import Reviews from '../components/Reviews';
 import TileSection from '../components/TileSection';
@@ -57,6 +58,7 @@ export default function Home() {
             exLink="https://lowears.company.site"
           />
         </TileSection>
+        <Affirmation />
         <Reviews />
       </Wrap>
     </Layout>
