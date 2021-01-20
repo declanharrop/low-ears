@@ -49,7 +49,7 @@ export default function Friends() {
     >
       <ImageHeader
         height="60vh"
-        text="The rest of the pack"
+        text="Friends of Low Ears"
         img="/img/headers/friends.jpg"
       />
       <Wrap>

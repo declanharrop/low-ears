@@ -49,7 +49,7 @@ export default function About() {
         <Quote height="50vh" img="/img/SamAbout.jpg" />
         <Link href="/Friends">
           <a>
-            <button type="button">The rest of the Packcd</button>
+            <button type="button">Friends of LowEars</button>
           </a>
         </Link>
         <Quote
