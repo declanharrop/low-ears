@@ -22,6 +22,8 @@ const Wrap = styled.div`
     img {
       width: 300px;
       border-radius: 150px;
+      box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.4);
+      border: 2px solid white;
     }
   }
 `;
@@ -43,7 +45,7 @@ export default function Footer() {
         </a>
       </Contact>
       <div className="paws">
-        <img src="/img/logo/Paws.jpg" alt="Paws" />
+        <img src="/img/logo/paws.jpg" alt="Paws" />
       </div>
       <InstaFeed
         insta="https://www.instagram.com/low.ears_/"

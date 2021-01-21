@@ -88,6 +88,16 @@ export default function Friends() {
           text="Mental Health First Aider"
           img="/img/partner/MHFA.jpg"
         />
+        <Item
+          link="https://qualsafeawards.org/"
+          text="Qualsafe Awards"
+          img="/img/logo/Qualsafe.jpg"
+        />
+        <Item
+          link="https://www.sweetsquared.com/"
+          text="Sweet Squared"
+          img="/img/logo/SweetSquared.jpg"
+        />
       </Wrap>
     </Layout>
   );
