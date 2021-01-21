@@ -54,7 +54,7 @@ export default function Press() {
           </div>
         </section>
         <div className="awards">
-          <h2>Other Awards</h2>
+          <h2>Cont.....</h2>
           <ul>
             <li>Top 100 Beauty Influencer Professional Beauty 2020</li>
             <li>WINNER 37 industry and non-industry awards:-</li>
