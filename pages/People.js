@@ -35,7 +35,7 @@ export default function People() {
             'Laura has worked with Premier Software for nearly 14 years. In her role as account manager, she has seen first-hand the pressure the spa and wellness industries are under.',
             'Since her recovery from breast cancer, Laura has been passionate about encouraging spas to welcome all guests with confidence. Looking back a few years, there was a lot of nervousness around treating cancer patients, but thankfully this stigma is starting to shift. With some complimentary treatments now available through the NHS, and new training courses educating the industry, many spas now have specialist therapists.',
             'Just as carefully chosen treatments can have a beneficial effect on cancer patients, the same can be said for those suffering with poor mental health. Spas help soothe the mind as well as the body, leading to increased feelings of happiness.',
-            's such, therapists find themselves offering treatments to those who need it most. However, sometimes the emotional baggage can become too much. Who is looking after the therapist? Who cares for the carers?',
+            'as such, therapists find themselves offering treatments to those who need it most. However, sometimes the emotional baggage can become too much. Who is looking after the therapist? Who cares for the carers?',
             'Together in partnership, Premier Software have added a direct link from its booking software to Low Ears. This gives therapists direct access to mentoring, education, and resources to improve their wellbeing. The aim is to encourage spa teams across the globe to recognise the importance of safeguarding their team’s mental health for the future.',
           ]}
         />

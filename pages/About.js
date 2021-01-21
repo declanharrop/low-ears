@@ -11,7 +11,7 @@ export default function About() {
   return (
     <Layout
       title="About - Low Ears"
-      desc="Welcome to Low Ears we ..."
+      desc="Sam Pearce, founder,  Low Ears, multi award winning business woman, ambassador for the beauty industry, champion for mental health education within customer facing industries.  Working to fight against stigma - who cares for the carers?  Changing the narrative about treatment methods, that one size does not fit all, healing isn't linear, it's entirely bespoke to the individual, one person at a time."
       url="https://lowears.co.uk/About"
     >
       <Wrap>
@@ -46,6 +46,18 @@ export default function About() {
             'If you can’t measure it you can’t mend it.  The button is integrated into salon software, with a journalling facility to allow you to log your ‘mood’ or ear position, this can then be reviewed, its a preventative measure , your own mental wellbeing is paramount to your own survival.',
           ]}
         />
+        <CircleImageSection
+          img="/img/logo/GutFeeling.jpg"
+          title="Gut feeling"
+          subtitle="Hippocrates- ‘All disease begins in the gut’."
+          texts={[
+            'Gut feeling is an  instinctive feeling or intuition - learning to listen to your body, it is also the gut/brain axis component of the Low Ears Group.  The gut is referred to as ‘the second brain’.  90% of the bodies happy hormone serotonin is created in the digestive tract, therefore it makes sense to consider your gut health and mental health as one.',
+            'We have our own nutritional practitioner available for consultation - to make a booking click the link below.',
+          ]}
+        />
+        <a href="https://lowears.comapny.site">
+          <button type="button">Book a Consultation</button>
+        </a>
         <Quote height="50vh" img="/img/SamAbout.jpg" />
       </Wrap>
     </Layout>

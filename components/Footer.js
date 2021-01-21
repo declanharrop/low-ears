@@ -17,6 +17,13 @@ const Wrap = styled.div`
       max-width: 600px;
     }
   }
+  .paws {
+    margin: 12vh auto -12vh auto;
+    img {
+      width: 300px;
+      border-radius: 150px;
+    }
+  }
 `;
 
 const Contact = styled.div`
@@ -35,6 +42,9 @@ export default function Footer() {
           <button type="button">Contact Us</button>
         </a>
       </Contact>
+      <div className="paws">
+        <img src="/img/logo/Paws.jpg" alt="Paws" />
+      </div>
       <InstaFeed
         insta="https://www.instagram.com/low.ears_/"
         title="INSTAGRAM"

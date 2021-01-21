@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <Layout
       title="Contact Us - Low Ears"
-      desc="Welcome to Low Ears we ..."
+      desc="Please contact us for any queries you may have"
       url="https://lowears.co.uk/Contact"
     >
       <Wrap>
@@ -27,7 +27,7 @@ export default function Contact() {
           text="Contact Us"
         />
         <div className="cont">
-          <h3>Please feel free to contact us, we can't wait to meet you.</h3>
+          <h3>We can't wait to meet you.</h3>
           <a href="mailto:info@lowears.co.uk">
             <button type="button">info@lowears.co.uk</button>
           </a>

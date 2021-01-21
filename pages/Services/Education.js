@@ -14,7 +14,7 @@ export default function Education() {
     <>
       <Layout
         title="Education - Low Ears"
-        desc="Welcome to Low Ears we ..."
+        desc="We believe that there is an unspoken agreement within any customer facing industry that those who choose this vocation,  are expected to provide counsel and emotional support to all,  without the correct training and boundaries in place, we have created the first of its kind training module bringing awareness to mental health within the workplace.  We have additional training courses available that provide holistic wellness and advanced learning opportunities. "
         url="https://lowears.co.uk/services/education"
       >
         <Wrap>

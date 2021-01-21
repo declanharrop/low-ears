@@ -78,6 +78,16 @@ export default function Friends() {
           text="The Sustainable Spa Association"
           img="/img/partner/SustainableSpa.jpg"
         />
+        <Item
+          link="https://red-umbrella.co.uk/"
+          text="Red Umbrella"
+          img="/img/partner/RedUmbrella.jpg"
+        />
+        <Item
+          link="https://mhfaengland.org/"
+          text="Mental Health First Aider"
+          img="/img/partner/MHFA.jpg"
+        />
       </Wrap>
     </Layout>
   );

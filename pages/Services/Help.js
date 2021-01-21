@@ -20,7 +20,7 @@ export default function Help() {
   return (
     <Layout
       title="Help - Low Ears"
-      desc="Welcome to Low Ears we ..."
+      desc="A- Z resources of charities and organisations that can provide support and advise during times of crisis."
       url="https://lowears.co.uk/Services/Help"
     >
       <ImageHeader img="/img/headers/help1.jpg" height="60vh" text="Help" />

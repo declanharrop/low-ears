@@ -15,7 +15,7 @@ export default function Mentoring() {
   return (
     <Layout
       title="Mentoring - Low Ears"
-      desc="Welcome to Low Ears we ..."
+      desc="A holistic business coach, 'you can't fix the business without fixing the people behind it first'.  Combining methods of practice to build a better work/life balance, no nonsense, results driven procedures, utilising 25 years of ground breaking experience, shattering pre-conceived beliefs and fulling your own potential, your best version of you."
       url="https://lowears.co.uk/services/mentoring"
     >
       <Wrap>
@@ -34,6 +34,9 @@ export default function Mentoring() {
           quote="'I am not what happened to me, I am what I choose to become.' - Carl Jung"
           img="/img/headers/contact.jpg"
         />
+        <a href="mailto:info@lowears.co.uk">
+          <button type="button">Join my waiting list</button>
+        </a>
         <NoneColorSection
           contents={[
             {
