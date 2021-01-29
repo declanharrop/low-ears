@@ -56,7 +56,7 @@ export default function Press() {
         <div className="awards">
           <ul>
             <li>Top 100 Beauty Influencer Professional Beauty 2020</li>
-            <li>WINNER 37 industry and non-industry awards:-</li>
+            {/* <li>WINNER 37 industry and non-industry awards:-</li> */}
             <li>Winner Customer at the Heart</li>
             <li>Salon Director of the Year</li>
             <li>Babtac Large Salon of the Year 2014</li>
