@@ -30,6 +30,9 @@ const Wrap = styled.section`
   .slick-dots li button::before {
     color: white;
   }
+  button {
+    margin: 0;
+  }
 `;
 const Next = styled.button`
   /* background: var(--navy); */
