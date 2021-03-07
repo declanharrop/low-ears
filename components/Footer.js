@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import InstaFeed from './Insta';
+import Instagram from './Instagram';
 
 const Wrap = styled.div`
   .middle {
@@ -47,13 +47,7 @@ export default function Footer() {
       <div className="paws">
         <img src="/img/logo/paws.jpg" alt="Paws" />
       </div>
-      <InstaFeed
-        insta="https://www.instagram.com/low.ears_/"
-        title="INSTAGRAM"
-        id="8326806558"
-        images="8"
-        buttonText="Follow our lead"
-      />
+      <Instagram />
       <div className="middle" />
       <div className="base">
         <p>
