@@ -39,7 +39,7 @@ export default function People() {
             'Together in partnership, Premier Software have added a direct link from its booking software to Low Ears. This gives therapists direct access to mentoring, education, and resources to improve their wellbeing. The aim is to encourage spa teams across the globe to recognise the importance of safeguarding their team’s mental health for the future.',
           ]}
         />
-        <CircleImageSection
+        {/* <CircleImageSection
           img="/img/people/elizabeth.png"
           title="Laila Charlesworth BSc, ANutr, BSc Hons"
           subtitle="Registered Associate Nutritionist"
@@ -51,8 +51,8 @@ export default function People() {
             'Together we have created our Gut Feeling range of symbiotic wellness.  These supplement ‘bundles’ - harness unrivalled knowledge, combining supplements & nutritional advise.',
             'To gut to the bottom of what is concerning you please contact us:-',
           ]}
-        />
-        <CircleImageSection
+        /> */}
+        {/* <CircleImageSection
           img="/img/people/laila.png"
           title="Elizabeth Caroline"
           // subtitle="Registered Associate Nutritionist"
@@ -61,7 +61,7 @@ export default function People() {
             'Elizabeth is our best in breed mindfulness teacher and will share her expansive knowledge with you through individual sessions and guided meditations.',
             "Despite how open, peaceful, and loving you attempt to be, people can only meet you as deeply as they've met themselves.  This is the heart of clarity.'",
           ]}
-        />
+        /> */}
       </div>
     </>
   );

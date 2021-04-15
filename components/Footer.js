@@ -44,9 +44,9 @@ export default function Footer() {
           <button type="button">Contact Us</button>
         </a>
       </Contact>
-      <div className="paws">
+      {/* <div className="paws">
         <img src="/img/logo/paws.jpg" alt="Paws" />
-      </div>
+      </div> */}
       <Instagram />
       <div className="middle" />
       <div className="base">

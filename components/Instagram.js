@@ -46,6 +46,7 @@ function useInstagram() {
       .then((res) => res.json())
       .then((data) => {
         setPosts(data);
+        console.log(data);
       });
   }, []);
   return posts;

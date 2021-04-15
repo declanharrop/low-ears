@@ -1,6 +1,6 @@
 require('isomorphic-fetch');
 
-const url = `https://www.instagram.com/graphql/query/?query_hash=003056d32c2554def87228bc3fd9668a&variables={"id":"8326806558","first":"8"}`;
+const url = `https://www.instagram.com/graphql/query/?query_hash=42d2750e44dbac713ff30130659cd891&variables={"id":"8326806558","first":"8"}`;
 
 const cache = {
   lastFetch: 0,
@@ -35,6 +35,8 @@ exports.handler = async function (event, context, callback) {
     statusCode: 200,
     headers: {
       'Content-Type': 'application/json',
+      // 'Cross-Origin-Recource-Policy': 'cross-origin',
+      // 'Access-Control-Allow-Origin': '*',
     },
     body: JSON.stringify(posts),
   });
