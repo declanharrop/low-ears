@@ -135,11 +135,9 @@ export default function Mentoring() {
             Here, you can book a 1-1 session with me to determine your exact
             requirement - it would be my pleasure to meet you
           </p>
-          <Link href="/BookAppointment">
-            <a>
-              <button type="button">Book</button>
-            </a>
-          </Link>
+          <a href="mailto:info@lowears.co.uk">
+            <button type="button">GET IN TOUCH TO BOOK</button>
+          </a>
         </div>
         <MentoringReviews />
       </Wrap>
