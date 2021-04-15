@@ -35,8 +35,8 @@ exports.handler = async function (event, context, callback) {
     statusCode: 200,
     headers: {
       'Content-Type': 'application/json',
-      // 'Cross-Origin-Recource-Policy': 'cross-origin',
-      // 'Access-Control-Allow-Origin': '*',
+      'Cross-Origin-Recource-Policy': 'cross-origin',
+      'Access-Control-Allow-Origin': '*',
     },
     body: JSON.stringify(posts),
   });
