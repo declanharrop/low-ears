@@ -53,6 +53,11 @@ export default function Home() {
             link="/Services/Education"
           />
           <IconTile
+            icon="/img/icons/Affurmit.svg"
+            text="Affurm-It"
+            exLink="https://affurmit.app"
+          />
+          <IconTile
             icon="/img/icons/Shop.svg"
             text="Shop"
             exLink="https://lowears.company.site"

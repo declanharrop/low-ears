@@ -53,12 +53,12 @@ function useInstagram() {
 }
 
 export default function Instagram() {
-  const insta = useInstagram();
+  // const insta = useInstagram();
   return (
     <Wrap>
       <h3>Instagram</h3>
       <div className="content">
-        {insta.map((post) => (
+        {/* {insta.map((post) => (
           <a
             href={post.url}
             key={post.id}
@@ -67,7 +67,7 @@ export default function Instagram() {
           >
             <img src={post.thumbnail} alt={post.caption} />
           </a>
-        ))}
+        ))} */}
       </div>
     </Wrap>
   );

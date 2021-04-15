@@ -8,7 +8,7 @@ const cache = {
 };
 
 async function getPosts() {
-  // first see if we have a cache in 30 mins
+  // first see if we have a cache in 30 minss
   const timeSinceLastFetch = Date.now() - cache.lastFetch;
   if (timeSinceLastFetch <= 1800000) {
     return cache.posts;
@@ -17,7 +17,7 @@ async function getPosts() {
   const posts = slimUpPosts(data);
   cache.lastFetch = Date.now();
   cache.posts = posts;
-  return posts;
+  return data;
 }
 
 function slimUpPosts(response) {
