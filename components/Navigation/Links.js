@@ -19,10 +19,10 @@ export default function Links() {
       title: 'Education',
       route: '/Services/Education',
     },
-    {
-      title: 'Shop',
-      exRoute: 'https://lowears.company.site',
-    },
+    // {
+    //   title: 'Shop',
+    //   exRoute: 'https://lowears.company.site',
+    // },
     {
       title: 'Contact',
       exRoute: '/Contact',

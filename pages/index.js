@@ -57,11 +57,11 @@ export default function Home() {
             text="Affurm-It"
             exLink="https://affurmit.app"
           />
-          <IconTile
+          {/* <IconTile
             icon="/img/icons/Shop.svg"
             text="Shop"
             exLink="https://lowears.company.site"
-          />
+          /> */}
         </TileSection>
         <Affirmation />
         <Reviews />
