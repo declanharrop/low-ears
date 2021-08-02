@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Instagram from './Instagram';
 
 const Wrap = styled.div`
   .middle {
@@ -44,10 +43,6 @@ export default function Footer() {
           <button type="button">Contact Us</button>
         </a>
       </Contact>
-      {/* <div className="paws">
-        <img src="/img/logo/paws.jpg" alt="Paws" />
-      </div> */}
-      <Instagram />
       <div className="middle" />
       <div className="base">
         <p>
