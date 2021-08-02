@@ -55,9 +55,9 @@ export default function About() {
             'We have our own nutritional practitioner available for consultation - to make a booking click the link below.',
           ]}
         />
-        <a href="https://lowears.company.site">
+        {/* <a href="https://lowears.company.site">
           <button type="button">Book a Consultation</button>
-        </a>
+        </a> */}
         <Quote height="50vh" img="/img/SamAbout.jpg" />
       </Wrap>
     </Layout>
